@@ -33,12 +33,52 @@ font-family: 'Phudu', cursive;
         width: 50%;
     }
 }
-@media screen and (max-width 600px){
+@media screen and (max-width: 600px) {
 .column {
     width: 100%;
 }    
 }
 
+header{
+    background-image: url('parallax1.jpg');
+    text-align: center;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 800px;
+    padding-top: 350px;
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 100px;
+    text-shadow: #000 20px 0 20px;
+}
+.parallax2 {
+background-image: url('parallax2.jpg');
+height: 400px;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 50px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+float: left;
+}
+.parallax2 h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.parallax2 p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 150px ;
+    margin-right: 150px;
+}
 ul{
     position: fixed;
     top: 0;
